@@ -1,5 +1,6 @@
 const express = require('express'),
     morgan = require('morgan');
+const { title, title, title, title, title, title, title, title, title } = require('process');
 const app = express();
 ==============================================================================
 
@@ -25,6 +26,44 @@ let movies = [
   {
     title: "Forrest Gump",
     director: "Robert Zemeckis"
+  },
+  {
+    title: "Welcome Home Roscoe Jenkins",
+    director: "Malcolm D. Lee"
+  },
+  {
+    title: "Major Payne",
+    director: "Nick Castle"
+  },
+  {
+    title: "Charlie Countryman",
+    director: "Fredrik Bond"
+  },
+  {
+    title: "Saving Private Ryan",
+    director: "Steven Speilberg"
+  },
+  {
+    title: "The Fast and the Furious",
+    director: "Rob Cohen"
+  },
+  {
+    title: "Borat! Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    director: "Larry Charles"
+  },
+  {
+    title: "Step Brothers",
+    director: "Adam McKay"
+  },
+  {
+    title: "War of the Worlds",
+    director: "Steven Speilberg"
+  },
+  {
+    title: "Inglourious Basterds",
+    director: "Quentin Tarantino"
+  }
+];
   
 
 app.use(express.static('public'));

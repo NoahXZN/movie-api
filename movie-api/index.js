@@ -71,7 +71,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/movies', (req, res) => {
-    res.json(topMovies);
+    res.json(Movies);
 });
 
 app.get("/documentation", (req, res) => {
